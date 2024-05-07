@@ -1,5 +1,8 @@
-@media screen and (max-width: 768px) {
-    .container {
-        flex-direction: column;
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
     }
 }
