@@ -1,0 +1,24 @@
+.container {
+    background-color: #2196f3;
+    display: grid;
+    /* grid-template-columns: auto auto auto auto; */
+    grid-template-columns: repeat(auto-fit, minmax(9em, 1fr));
+    grid-template-rows: 8em;
+    grid-gap: 1em;
+    padding: 1em;
+    /* height: 95vh; //95vh = 95% of the viewport height = 2.3 cm */
+}
+
+.item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2em; //1em = 0.4 cm //2.5em = 1.05 cm
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center;
+    margin: ; */
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transfom: capitalize;
+}
