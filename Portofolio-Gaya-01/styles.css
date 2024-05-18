@@ -343,7 +343,7 @@ section {
 }
 
 .article-container {
-    display: flex;
+    display: grid;
     text-align: initial;
     flex: wrap;
     flex-direction: row;
@@ -355,7 +355,7 @@ article {
     display: flex;
     width: 27rem;
     height: auto;
-    justify-content: space-around;
+    justify-content: center;
     gap: 0.5rem;
     font-size: 0.85rem;
     margin-bottom: 1.5rem;
@@ -366,6 +366,23 @@ article .icon {
     height: 1.45rem;
     cursor: default;
 }
+
+
+/* .experience-containers {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(9em, 1fr));
+    grid-template-rows: 8em;
+    grid-gap: 1em;
+    padding: 1em;
+} */
+
+
+/* .experience-sub-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 
 
 /*========= PROJECTS SECTION ==========*/
