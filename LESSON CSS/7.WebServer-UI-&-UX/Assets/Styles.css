@@ -26,7 +26,7 @@
 
 .item {
     background-color: rgba(41, 53, 67, 0.8);
-    padding: 2em; //1em = 0.4 cm //2.5em = 1.05 cm
+    padding: 2em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@
     border-radius: 10px;
     font-size: 1.5em;
     font-weight: 600;
-    text-transfom: capitalize;
+    /* text-transfom: capitalize; */
     color: #f3f3f3;
     text-align: center;
 }
