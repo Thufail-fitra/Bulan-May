@@ -1,0 +1,13 @@
+.container {
+    width: 800px;
+    border: 4px solid black;
+}
+
+img {
+    float: left;
+    margin: 10px;
+}
+
+.clear {
+    clear: left;
+}

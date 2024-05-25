@@ -1,0 +1,41 @@
+* {
+    /* digunakan untuk menghapus seluruh padding dan margin standar yang diberikan browser pada elemen */
+    margin: 0;
+    padding: 0;
+    /* Menggunakan border-box dalam perhitungan dimensi box-nya */
+    box-sizing: border-box;
+}
+
+.container {
+    width: 800px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.left-content {
+    text-align: center;
+    line-height: 400px;
+    width: 33.3%;
+    height: 100%;
+    background-color: #00c7ed;
+    float: left;
+}
+
+.center-content {
+    text-align: center;
+    line-height: 400px;
+    width: 33.3%;
+    height: 100%;
+    background-color: #d0b541;
+    float: left;
+}
+
+.right-content {
+    text-align: center;
+    line-height: 400px;
+    width: 33.3%;
+    height: 100%;
+    background-color: #60d0a8;
+    float: left;
+}
