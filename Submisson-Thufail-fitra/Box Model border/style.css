@@ -1,0 +1,14 @@
+.box {
+    border-top-style: solid;
+    border-right-style: dotted;
+    border-bottom-style: groove;
+    border-left-style: double;
+    border-width: 4px;
+    border-color: red;
+    width: 200px;
+    height: 50px;
+}
+
+.box.margin {
+    margin: 20px;
+}

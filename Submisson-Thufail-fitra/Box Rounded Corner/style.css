@@ -1,0 +1,6 @@
+.rounded {
+    width: 300px;
+    padding: 20px;
+    border: 4px solid deeppink;
+    border-radius: 10px;
+}
