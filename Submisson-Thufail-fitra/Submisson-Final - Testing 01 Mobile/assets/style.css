@@ -88,3 +88,21 @@ aside {
     width: 25%;
     padding-left: 20px;
 }
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+/* Pada kode di atas,kita menerapkan media query dengan rincian sebagai berikut.*/
+
+
+/*Media yang digunakan untuk menerapkan styling adalah layar perangkat dan kita pilih “screen”.*/
+
+
+/*Aturan kode styling akan ditetapkan pada saat ukuran lebar viewport maksimal 1000 piksel. Dengan kata lain,styling akan diterapkan jika lebar viewport di bawah 1000 piksel.* /
+/* Terapkan lebar elemen sebesar 100% pada elemen <div id="content">dan <aside>terhadap elemen induknya (parent element) supaya elemen sejajar secara vertikal (atas-bawah).*/
