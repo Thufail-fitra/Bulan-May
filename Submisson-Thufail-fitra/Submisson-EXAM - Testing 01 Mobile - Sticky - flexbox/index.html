@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Halaman Profil Bandung</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav id="desktop-nav">
+            <div class="logo">Amalia Batul Rosyidah</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Amalia Batul Rosyidah</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+        <!-- <div class="jumbotron">
+            <h1>Bandung</h1>
+            <p>
+                Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu kota provinsi tersebut.
+            </p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sejarah">Sejarah</a></li>
+                <li><a href=" #geografis">Geografis</a></li>
+                <li><a href=" #wisata">Wisata</a></li>
+            </ul>
+        </nav> -->
+
+
+
+    </header>
+    <main>
+        <div id="content">
+            <article id="sejarah" class="card">
+
+                <section id="profile">
+                    <div class="section__pic-container">
+                        <img src="assets/image/Profile-pic-Amalia-BR-batik.png" alt="INPUT YOUR PROFILE PICTURE">
+                    </div>
+                    <div class="section__text">
+                        <p class="section__text__p1">Hello, I'm</p>
+                        <h1 class="title">Amalia Batul Rosyidah</h1>
+                        <p class="section__text__p2">Graphic Designer</p>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2" onclick="window.open('assets/Amalia-Batul-Rosyidah-cv.pdf')">Download CV</button>
+                            <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+                        </div>
+                        <div id="social-container">
+                            <img src="assets/image/instagram-fill (240px).png" alt="My linkedin Profile" class="icon" onclick="location.href='https://www.instagram.com/amaliarosyidah_/'">
+                            <img src="assets/image/whatsapp-fill.png" alt="My linkedin Profile" class="icon" onclick="location.href='https://wa.me/6285334543315'">
+                            <img src="assets/image/linkedin.png" alt="My linkedin Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/amalia-batul-rosyidah-a57079266/?originalSubdomain=id'">
+                            <img src="assets/image/github.png" alt="My Github Profile" class="icon" onclick="location.href='https://github.com/'">
+                        </div>
+                    </div>
+                </section>
+                <!-- <h2>Sejarah</h2>
+                <img src="assets/image/history.jpg " alt=" " class="featured-image">
+                <p>
+                    Kata Bandung berasal dari kata bendung atau bendungan karena terbendungnya sungai Citarum oleh lava Gunung Tangkuban Parahu yang lalu membentuk telaga. Legenda yang diceritakan oleh orang-orang tua di Bandung mengatakan bahwa nama Bandung diambil dari
+                    sebuah kendaraan air yang terdiri dari dua perahu yang diikat berdampingan yang disebut perahu bandung yang digunakan oleh Bupati Bandung, R.A. Wiranatakusumah II, untuk melayari Ci Tarum dalam mencari tempat kedudukan kabupaten yang
+                    baru untuk menggantikan ibu kota yang lama di Dayeuhkolot.
+                </p>
+
+                <p>
+                    Berdasarkan filosofi Sunda, kata Bandung juga berasal dari kalimat Nga-Bandung-an Banda Indung, yang merupakan kalimat sakral dan luhur karena mengandung nilai ajaran Sunda. Nga-Bandung-an artinya menyaksikan atau bersaksi. Banda adalah segala sesuatu
+                    yang berada di alam hidup yaitu di bumi dan atmosfer, baik makhluk hidup maupun benda mati. Sinonim dari banda adalah harta. Indung berarti Ibu atau Bumi, disebut juga sebagai Ibu Pertiwi tempat Banda berada.
+                </p> -->
+            </article>
+            <article id="geografis" class="card">
+                <section id="about">
+                    <p class="section__text__p1">Get To Know More</p>
+                    <h1 class="title">About Me</h1>
+                    <div class="section-container">
+                        <div class=" section__pic-container ">
+                            <img src="assets/image/Profile-pic-Amalia-BR-ABOUT-ME.png" alt="Profile picture" class="about-pic">
+                        </div>
+                        <div class="about-details-container ">
+                            <div class="about-containers">
+                                <div class="details-container ">
+                                    <img src="assets/image/experience.png" alt="experience icon" class="icon">
+                                    <h3>Experience</h3>
+                                    <p>1+ year<br />Graphic Designer</p>
+                                </div>
+                                <div class="details-container ">
+                                    <img src="assets/image/education.png" alt="education icon" class="icon">
+                                    <h3>Education</h3>
+                                    <p>B.A. Bachelors Degree<br /></p>
+                                    <!-- <p>M.Psi. Master Degree</p> -->
+                                </div>
+                            </div>
+                            <div class="text-container ">
+                                <p>I am Amalia Batul Rosyidah, a 20 years old, Surabaya State University student majoring in Special Education. In addition, learn about the barriers of friends with disabilities. I have also been pursuing graphic design since
+                                    high school until now and have won poster and logo competitions several times. I am interested in the world of graphic design because I have studied design since I was in high school. I also often take part in training
+                                    programs and design communities to deepen my knowledge regarding graphic design.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="assets/arrow.png" alt=" Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+                </section>
+                <!-- <h2>Geografis</h2>
+                <img src="assets/image/geografis.jpg " alt=" " class="featured-image">
+                <p>
+                    Kota Bandung dikelilingi oleh pegunungan, sehingga bentuk morfologi wilayahnya bagaikan sebuah mangkok raksasa, secara geografis kota ini terletak di tengah-tengah provinsi Jawa Barat, serta berada pada ketinggian ±768 m di atas permukaan laut, dengan
+                    titik tertinggi di berada di sebelah utara dengan ketinggian 1.050 meter di atas permukaan laut dan sebelah selatan merupakan kawasan rendah dengan ketinggian 675 meter di atas permukaan laut.
+                </p>
+
+                <p>
+                    Kota Bandung dialiri dua sungai utama, yaitu Sungai Cikapundung dan Sungai Citarum beserta anak-anak sungainya yang pada umumnya mengalir ke arah selatan dan bertemu di Sungai Citarum. Dengan kondisi yang demikian, Bandung selatan sangat rentan terhadap
+                    masalah banjir terutama pada musim hujan.
+                </p> -->
+            </article>
+
+            <article id="wisata" class="card" ">
+                <section id="experience ">
+                <p class="section__text__p1 ">Explore My</p>
+                <h1 class="title ">Work Experience</h1>
+                <div class="experience-details-container experience-containers ">
+                    <div class="about-containers experience-items ">
+                        <div class="details-container experience-sub-item ">
+                            <h2 class="experience-sub-title ">GudCare</h2>
+                            <div class="article-container ">
+                                <article>
+                                    <img src="assets/checkmark.png " alt="experience " class="icon " />
+                                    <div>
+                                        <h3>Graphic Designer & Design Marketing-Internship</h3>
+                                        <p>Gudcare is a company that oversees 2 perfume brands Fresh Chubs and Penatu Home</p>
+                                        <!-- <p>Experienced</p> -->
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="details-container experience-sub-item ">
+                            <h2 class="experience-sub-title ">MagangUpdate</h2>
+                            <div class="article-container ">
+                                <article>
+                                    <img src="assets/checkmark.png " alt="experience " class="icon " />
+                                    <div>
+                                        <h3>Graphic Designer & Social Media - Internship</h3>
+                                        <p></p>
+                                        <p>MagangUpdate referring to a media platform internship program or an update program career preparation</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <img src="assets/arrow.png " alt=" Arrow icon " class="icon arrow " onclick="location.href='./#projects' ">
+            </section>
+                <!-- <h2>Wisata</h2> -->
+                <!-- <img src="assets/image/bosscha.jpg " alt=" "> -->
+                <!-- <p>
+                    Sejak dibukanya Jalan Tol Cipularang, kota Bandung telah menjadi tujuan utama dalam menikmati liburan akhir pekan terutama dari masyarakat yang berasal dari Jakarta sekitarnya. Selain menjadi kota wisata belanja, kota Bandung juga dikenal dengan sejumlah
+                    besar bangunan lama berarsitektur peninggalan Belanda.
+                </p>
+                <section>
+                    <h3>Farm House Lembang</h3>
+                    <img src="assets/image/farm-house.jpg " alt=" "class="featured-image ">
+                    <p>
+                        Berada di jalur utama Bandung-Lembang, Farm House menjadi objek wisata yang tidak pernah sepi pengunjung. Selain karena letaknya strategis, kawasan ini juga menghadirkan nuansa wisata khas Eropa. Semua itu diterapkan dalam bentuk spot swafoto Instagramable.
+                    </p>
+                </section>
+
+
+                <section>
+                    <h3>Observatorium Bosscha</h3>
+                    <img src="assets/image/bosscha.jpg " alt=" "class="featured-image ">
+                    <p>
+                        Memiliki beberapa teleskop, antara lain, Refraktor Ganda Zeiss, Schmidt Bimasakti, Refraktor Bamberg, Cassegrain GOTO, dan Teleskop Surya. Refraktor Ganda Zeiss adalah jenis teleskop terbesar untuk meneropong bintang. Benda ini diletakkan pada atap kubah
+                        sehingga saat teropong digunakan, atap tersebut harus dibuka. Observatorium Bosscha boleh dikunjungi oleh siapapun, tanpa tiket. Namun, bagi yang ingin menggunakan teleskop Zeiss, wajib mendaftarkan diri. Untuk instansi atau lembaga
+                        pendidikan, diberikan jadwal hari Selasa sampai Jumat. Sementara itu, kunjungan individu dibuka setiap hari Sabtu.
+                    </p>
+                </section> -->
+            </article>
+        </div>
+        <aside>
+            <article class="profile card ">
+                <header>
+                    <h2>Kota Bandung</h2>
+                    <p>Kota Kembang Paris van Java</p>
+                    <figure>
+                        <img src="assets/image/Bandung-badge.png " />
+                        <figcaption>Lambang</figcaption>
+                    </figure>
+                </header> 
+                <section id="contact ">
+                    <p class="section__text__p1 ">Get In Touch</p>
+                    <h1 class="title ">Contact Me</h1>
+                    <div class="contact-info-upper-container ">
+                        <div class="contact-info-container ">
+                            <img src="assets/email.png " alt="Email icon " class="icon contact-icon email-icon ">
+                            <p>
+                                <a href="https://mail.google.com ">amaliarosyidah01@gmail.com</a>
+                            </p>
+                        </div>
+                        <div class="contact-info-container ">
+                            <img src="assets/linkedin.png " alt="LinkedIn icon " class="icon contact-icon ">
+                            <p>
+                                <a href="INPUT YOUR EMAIL HERE ">LinkedIn</a>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!-- <section>
+                    <h3>Informasi Lainnya</h3>
+                    <table>
+                        <tr>
+                            <th>Negara</th>
+                            <td>Indonesia</td>
+                        </tr>
+                        <tr>
+                            <th>Hari jadi</th>
+                            <td>25 September 1810</td>
+                        </tr>
+                        <tr>
+                            <th>Luas Total</th>
+                            <td>167.67 km2</td>
+                        </tr>
+                        <tr>
+                            <th>Bahasa Daerah</th>
+                            <td>Sunda</td>
+                        </tr>
+                        <tr>
+                            <th>Kode Telepon</th>
+                            <td>+62 22</td>
+                        </tr>
+                    </table>
+                </section> -->
+
+            </article>
+
+        </aside>
+
+    </main>
+
+
+    <footer>
+        <p>Belajar Dasar Pemrograman Web &#169; 2019, Dicoding Academy</p>
+    </footer>
+    <script src=" script.js "></script>
+</body>
+
+</html>
