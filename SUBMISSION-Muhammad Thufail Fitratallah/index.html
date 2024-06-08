@@ -14,18 +14,33 @@
 <body>
     <header>
 
-        <div class="jumbotron">
-            <h1>Kota <span>Surabaya</span></h1>
-            <p>
-                Ibu kota Provinsi Jawa Timur yang menjadi pusat pemerintahan dan perekonomian sekaligus kota terbesar di provinsi tersebut.
-            </p>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#sejarah">Sejarah</a></li>
-                <li><a href=" #geografis">Geografis</a></li>
-                <li><a href=" #wisata">Wisata</a></li>
-            </ul>
+        <nav id="desktop-nav">
+            <div class="logo">Thufail <span>Fitra</span></div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Thufail <span>Fitra</span></div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#gallery" onclick="toggleMenu()">Gallery</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
         </nav>
 
 
@@ -33,99 +48,75 @@
     </header>
     <main>
         <div id="content">
-            <article id="sejarah" class="card">
+            <article id="about" class="card">
 
 
-                <h2>Sejarah</h2>
-                <img src="assets/image/Histori-suroboyo.jpg " alt=" " class="featured-image">
-                <p>
-                    Kata Surabaya (bahasa Sanskerta: Śūrabhaya) sering diartikan secara filosofis sebagai lambang perjuangan antara darat dan air. Selain itu, dari kata Surabaya juga muncul mitos pertempuran antara ikan sura (ikan hiu) dan baya (buaya), yang menimbulkan
-                    dugaan bahwa terbentuknya nama "Surabaya" muncul setelah terjadinya pertempuran tersebut. Kata Surabaya juga diyakini sebagai perpaduan dua nama tokoh besar pada masa lampau yaitu Suropati dan Purbaya.
-                </p>
-
-                <p>
-                    Bukti sejarah menunjukkan bahwa Surabaya sudah ada jauh sebelum zaman kolonial, seperti yang tercantum dalam prasasti Trowulan I, berangka 1358 M. Dalam prasasti tersebut terungkap bahwa Surabaya (Śūrabhaya) masih berupa desa di tepi sungai Brantas dan
-                    juga sebagai salah satu tempat penyeberangan penting sepanjang daerah aliran sungai Brantas. Surabaya juga tercantum dalam pujasastra Kakawin Nagarakretagama yang ditulis oleh Empu Prapañca yang bercerita tentang perjalanan pesiar
-                    Raja Hayam Wuruk pada tahun 1365 M dalam pupuh XVII (bait ke-5, baris terakhir).
-                </p>
+                <h2>About Me</h2>
+                <div class="FOTO-ABOUT">
+                    <img src="assets/image/Profile-pic-Fitra-Ajax.png" alt="">
+                </div>
+                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum illum debitis possimus delectus reprehenderit ipsam nobis?</P>
             </article>
-            <article id="geografis" class="card">
+            <article id="gallery" class="card">
 
-                <h2>Geografis</h2>
-                <img src="assets/image/surabaya-geo.png" alt=" " class="featured-image">
-                <p>
-                    Kondisi geologi Kota Surabaya terdiri dari Daratan Alluvium; Formasi Kabuh; Pucangan; Lidah; Madura; dan Sonde. Sedangkan untuk wilayah perairan, Surabaya tidak berada pada jalur sesar aktif ataupun berhadapan langsung dengan samudra, sehingga relatif
-                    aman dari bencana alam endogen.
-                </p>
+                <h2>MY GALLERY</h2>
+                <div class="FOTO-ABOUT">
+                    <img src="assets/image/IoT - the Internet of Things.jpeg" alt=" " class="featured-image">
+                </div>
 
-                <p>
-                    Berdasarkan kondisi geologi dan wilayah perairannya, Surabaya dikategorikan ke dalam kawasan yang relatif aman terhadap bencana gempa bumi maupun tanah amblesan sehingga pembangunan infrastruktur tidak memerlukan rekayasa geoteknik yang dapat menelan
-                    biaya besar.
-                </p>
+
             </article>
 
-            <article id="wisata" class="card" ">
+            <article id="projects" class="card" ">
                 
-                <h2>Wisata</h2> 
+                <h2>My Projects</h2> 
                 <!-- <img src="assets/image/bosscha.jpg " alt=" "> -->
                 <p>
-                    Rekomendasi tempat wisata Surabaya yang berkesan dan susah dilupain? Surabaya adalah kota terbesar kedua di Indonesia dan juga merupakan ibu kota dari provinsi Jawa Timur.
-
-                    Kota ini memiliki sejarah yang kaya dan budaya yang unik, membuatnya menjadi destinasi wisata yang populer di Indonesia.
+                    find your need it !
                 </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae totam id impedit tenetur similique veritatis, culpa, voluptatum modi tempore dolore, accusamus alias architecto enim ratione nesciunt quidem natus delectus eaque doloribus cumque non provident. Eaque impedit voluptatibus hic dolorum, veniam a deleniti numquam ullam sit. Odit deleniti dolores repudiandae sequi possimus culpa inventore, corrupti nam cum tempora incidunt officiis, commodi itaque saepe magni natus sunt deserunt reprehenderit, minus praesentium ad labore ut. Veritatis voluptas consectetur assumenda qui. Error a maxime sapiente, aut amet quod nesciunt. Odit eaque praesentium reiciendis magni placeat vero facere pariatur? Quos eveniet vel molestias odio dolore?
+                </p>
+                
                 <section>
-                    <h3> Taman Bungkul</h3>
-                    <img src="assets/image/Taman Bungkul.jpeg " alt=" "class="featured-image ">
+                    <h3> Romotow - ioT</h3>
+                    <div class="FOTO-ABOUT ">
+                        <img src="assets/image/ROMOTOW-IOT.jpeg " alt=" " class="featured-image ">
+                    </div>
                     <p>
-                        Taman Bungkul adalah taman kota yang terletak di kawasan Genteng, Surabaya. Taman ini memiliki berbagai fasilitas olahraga dan rekreasi, seperti area jogging, lapangan basket, kolam renang, dan area bermain anak. Taman ini juga sering digunakan untuk mengadakan konser dan acara seni budaya.
                     </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae totam id impedit tenetur similique veritatis, culpa, voluptatum modi tempore dolore, accusamus alias architecto enim ratione nesciunt quidem natus delectus eaque doloribus cumque non provident. Eaque impedit voluptatibus hic dolorum, veniam a deleniti numquam ullam sit. Odit deleniti dolores repudiandae sequi possimus culpa inventore, corrupti nam cum tempora incidunt officiis, commodi itaque saepe magni natus sunt deserunt reprehenderit, minus praesentium ad labore ut. Veritatis voluptas consectetur assumenda qui. Error a maxime sapiente, aut amet quod nesciunt. Odit eaque praesentium reiciendis magni placeat vero facere pariatur? Quos eveniet vel molestias odio dolore?
+                    </p>
+                    
                 </section>
 
 
                 <section>
-                    <h3>Monumen Kapal Selam</h3>
-                    <img src="assets/image/Monkasel.jpeg " alt=" "class="featured-image ">
+                    <h3>Gps Tracker</h3>
+                    <div class="FOTO-ABOUT ">
+                        <img src="assets/image/GPS-tracking.jpeg " alt=" " class="featured-image ">
+                    </div>
                     <p>
-                        Monumen Kapal Selam adalah sebuah monumen yang dibangun di atas kapal selam Rusia, KRI Pasopati 410. Kapal selam ini digunakan oleh TNI-AL sejak tahun 1962 hingga 1990 dan kemudian dijadikan sebagai monumen sebagai bentuk penghormatan kepada para prajurit TNI-AL. Di dalam monumen ini, pengunjung dapat melihat bagian dalam kapal selam dan melihat peralatan dan mesin yang digunakan.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae totam id impedit tenetur similique veritatis, culpa, voluptatum modi tempore dolore, accusamus alias architecto enim ratione nesciunt quidem natus delectus eaque doloribus cumque non provident. Eaque impedit voluptatibus hic dolorum, veniam a deleniti numquam ullam sit. Odit deleniti dolores repudiandae sequi possimus culpa inventore, corrupti nam cum tempora incidunt officiis, commodi itaque saepe magni natus sunt deserunt reprehenderit, minus praesentium ad labore ut. Veritatis voluptas consectetur assumenda qui. Error a maxime sapiente, aut amet quod nesciunt. Odit eaque praesentium reiciendis magni placeat vero facere pariatur? Quos eveniet vel molestias odio dolore?
                     </p>
                 </section>
             </article>
         </div>
-        <aside>
-            <article class="profile card ">
+        <aside >
+            <article  id="contact "class="profile card ">
                 <header>
-                    <h2>Kota Surabaya</h2>
-                    <p>Kota Pahlawan</p>
+                    <h2 >Contact Me</h2>
+                    <p></p>
                     <figure>
-                        <img src="assets/image/City-surabaya-logo.png " />
-                        <figcaption>Lambang Kota Surabaya</figcaption>
+                        <img src="assets/image/Profile-pic-Fitra-Ajax.png " />
+                        <figcaption>Thufail Fitra</figcaption>
                     </figure>
                 </header> 
                 
-                <section>
+                <section class=" CONTACT-FITRA " >
                     <h3>Informasi Lainnya</h3>
-                    <table>
-                        <tr>
-                            <th>Negara</th>
-                            <td>Indonesia</td>
-                        </tr>
-                        <tr>
-                            <th>Hari jadi</th>
-                            <td>14 Agustus 1950</td>
-                        </tr>
-                        <tr>
-                            <th>Luas Total</th>
-                            <td>335,28 km2</td>
-                        </tr>
-                        <tr>
-                            <th>Bahasa Daerah</th>
-                            <td>Jawa Surabaya-an</td>
-                        </tr>
-                        <tr>
-                            <th>Kode Telepon</th>
-                            <td>+62 31</td>
-                        </tr>
-                    </table>
+                    <p>@thufailfitra - Instagram</p>
                 </section>
 
             </article>
