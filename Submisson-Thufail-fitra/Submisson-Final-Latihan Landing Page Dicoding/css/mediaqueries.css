@@ -1,0 +1,103 @@
+/* Medium devices (768px dan di bawahnya) */
+
+
+/* Kita akan mengatur styling yang diperlukan di bawah breakpoint ini (768px) agar kita dapat menyesuaikan layout pada ukuran layar ini.
+
+==> [0] Hal pertama yang perlu kita sesuaikan adalah navbar container. 
+    Tampilan dari navbar pada ukuran desktop atau laptop sudah baik, 
+    tetapi bila kita lihat pada ukuran kecil, overflow akan terjadi 
+    atau teks dari tautan navigasi menjadi turun. Oleh karena itu, 
+    kita perlu mengubah value dari properti flex-direction menjadi column. 
+    Tambahkan properti tersebut pada navbar container sebagai berikut.
+
+
+==> [1] Jika kita perhatikan, kita telah berhasil mengubah flex-direction 
+    menjadi column. Namun, jika kita kecilkan lagi ukuran layarnya di bawah 462px, 
+    ada konten teks dari salah satu navigation item yang turun. Silakan perhatikan GIF berikut.
+
+==> [2] Untuk mengatasi masalah ini, bagaimana jika kita turunkan 
+    satu navigation terakhir? Jika setuju, langsung saja kita 
+    terapkan properti flex-wrap: wrap pada elemen <ul>. 
+    Silakan tambahkan kode CSS berikut.
+/* Kode lainnya disembunyikan */
+
+
+/* Medium devices (768px dan di bawahnya) */
+
+
+/* @media screen and (max-width: 768px) {
+    header.navbar-container {
+        flex-direction: column;
+    }
+    header.navbar-container .nav-list ul {
+        flex-wrap: wrap;
+        column-gap: 0.5rem;
+    }
+} 
+    
+==> [3] Selanjutnya, kita akan memperbaiki konten utama. Kasus yang
+    terjadi sama dengan sebelumnya, yaitu terjadi overflow content 
+    jika ditampilkan pada lebar viewport yang lebih kecil. Oleh karena itu, 
+    kita ubah arah flex menjadi kolom dengan menerapkan flex-direction: column 
+    pada elemen main .content. Silakan tambahkan kode bercetak tebal berikut.
+
+==>  Jika proyek kembali dijalankan, tampilan halaman pada breakpoint 768 piksel
+     dan di bawahnya akan tampak seperti berikut.
+    
+==> [4] Sip! Sekarang, tampilan halaman sudah membaik dan lebih 
+    rapi untuk dilihat. Sebelum kita akhiri, ada sedikit tambahan 
+    yang akan kita lakukan agar tampilan semakin baik lagi. 
+    Kita akan mengubah beberapa hal, seperti mengecilkan padding 
+    pada elemen <main>, ukuran font (font-size), dan urutan 
+    konten halaman (order). Hal ini dilakukan untuk menyesuaikan 
+    kembali beberapa hal dalam tampilan layar kecil.
+
+    Perubahan di atas membawa kita untuk menerapkan properti 
+    order pada elemen div.content-image. Tujuan dari properti 
+    ini adalah mengatur urutan konten dari susunan flex items. 
+    Secara default, value-nya adalah 0. Namun, jika kita berikan -1, 
+    flex item yang bersangkutan akan bertempat pada urutan awal.         
+
+*/
+
+@media screen and (max-width: 768px) {
+    /* Perubahan di [0 & 1] ---  flex-direction menjadi column */
+    header.navbar-container {
+        flex-direction: column;
+    }
+    /* Perubahan di [2] --- flex-wrap: wrap pada elemen ul */
+    header.navbar-container .nav-list ul {
+        flex-wrap: wrap;
+        column-gap: 0.5rem;
+    }
+    /* Perubahan di [3] --- flex-direction: column pada elemen main .content. */
+    main .content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    /* Perubahan di [4] --- menerapkan properti order pada elemen div.content-image */
+    main {
+        padding: 1rem 3rem;
+    }
+    main .content .content-description .title {
+        font-size: 3rem;
+    }
+    main .content .content-description p {
+        font-size: 1rem;
+    }
+    main .content .content-image {
+        order: -1;
+    }
+}
+
+
+/*Hore! Kini kita sudah berhasil lagi memperbaiki responsibilitas 
+tata letak dalam proyek sehingga ideal untuk ditampilkan pada layar 
+yang kecil. Landing page kita sudah makin bagus dan user pun relatif 
+nyaman dengannya. Perjalanan yang sangat hebat, bukan?
+
+Tidak hanya sampai di sini proyeknya. Kreativitas akan senantiasa 
+ada dan terus meningkat. Anda tentunya sangat berpotensi untuk 
+mewujudkan hal tersebut. Jika ingin, Anda bisa berkreasi sekreatif 
+mungkin dalam proyek ini, terutama dalam meningkatkan pemahaman 
+/* mengenai flexible box layout. */
